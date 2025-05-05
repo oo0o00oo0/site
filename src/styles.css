@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* https://roko-g.work/ */
+/* https://lineofsight.co/?ref=siteinspire */
+/* https://www.protoeditions.co/editions */
+/* uicolors */
+
+/* Fonts */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+}
+
+:root {
+  /* Remove or comment out this line */
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-family: "IBM Plex Sans";
+
+  color-scheme: light dark;
+  color: #222222;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  /* color: #0037ff; */
+  color: #4225ff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #474d62;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Firefox scrollbar styles */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
