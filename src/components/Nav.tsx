@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 
 function Nav() {
+  console.log("Nav");
   return (
     <nav className="col-span-12 sm:px-6 lg:px-8">
       <div className="grid grid-cols-12 grid-rows-[auto_1fr]">
